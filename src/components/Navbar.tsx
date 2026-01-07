@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
             <a href="#gallery" className="text-xs uppercase tracking-[0.2em] hover:text-amber-800 transition-colors">Gallery</a>
             <a href="#contact" className="text-xs uppercase tracking-[0.2em] hover:text-amber-800 transition-colors">Contact</a>
             <a
-              href="https://www.instagram.com/designedbyemma"
+              href="https://www.instagram.com/designedby.emma.nz/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-amber-900 text-white text-xs uppercase tracking-[0.2em] hover:bg-amber-800 transition-colors"
@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
             <a href="#gallery" className="text-xs uppercase tracking-[0.2em] hover:text-amber-800 transition-colors" onClick={() => setIsOpen(false)}>Gallery</a>
             <a href="#contact" className="text-xs uppercase tracking-[0.2em] hover:text-amber-800 transition-colors" onClick={() => setIsOpen(false)}>Contact</a>
             <a
-              href="https://www.instagram.com/designedbyemma"
+              href="https://www.instagram.com/designedby.emma.nz/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-amber-900 text-white text-xs uppercase tracking-[0.2em] hover:bg-amber-800 transition-colors text-center"

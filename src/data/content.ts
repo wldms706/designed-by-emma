@@ -11,7 +11,7 @@ export const SERVICES: ServiceItem[] = [
     title: "Premium Clinic",
     description: "Deep restorative treatments specifically curated to maintain hair health, shine, and structural integrity.",
     priceFrom: "NZD 120",
-    image: "" // Placeholder: Add your clinic treatment result photo here
+    image: "/images/clinic1.jpg"
   },
   {
     title: "Female Designer Cut",
@@ -75,7 +75,7 @@ export const BUSINESS_INFO = {
     closed: "Mondays (subject to change)"
   },
   bookingMethod: "Instagram DM",
-  instagram: "https://www.instagram.com/designedbyemma",
-  instagramHandle: "@designedbyemma",
+  instagram: "https://www.instagram.com/designedby.emma.nz/",
+  instagramHandle: "@designedby.emma.nz",
   keywords: ["Auckland emma", "Designed by Emma", "k-hair emma", "Korean hair Auckland"]
 };

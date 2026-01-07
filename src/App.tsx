@@ -24,12 +24,12 @@ const App: React.FC = () => {
                 <h2 className="text-4xl md:text-5xl font-serif mt-4 italic">The Art of Hair</h2>
               </div>
               <a
-                href="https://www.instagram.com/designedbyemma"
+                href="https://www.instagram.com/designedby.emma.nz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[10px] font-bold border-b-2 border-amber-800 pb-2 mb-2 uppercase tracking-[0.2em] hover:text-amber-800 transition-colors"
               >
-                Follow @designedbyemma
+                Follow @designedby.emma.nz
               </a>
             </div>
 
@@ -58,8 +58,18 @@ const App: React.FC = () => {
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
               </div>
 
+              {/* Clinic Photos */}
+              <div className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 hover:border-amber-200 transition-all duration-700 group cursor-pointer relative">
+                <img src="/images/clinic1.jpg" alt="Premium Clinic Treatment 1" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
+              </div>
+              <div className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 hover:border-amber-200 transition-all duration-700 group cursor-pointer relative">
+                <img src="/images/clinic2.jpg" alt="Premium Clinic Treatment 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
+              </div>
+
               {/* Placeholder for more photos */}
-              {[6, 7, 8].map((i) => (
+              {[8].map((i) => (
                 <div key={i} className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 flex items-center justify-center hover:bg-[#F3F1ED] transition-all duration-700 group cursor-pointer relative">
                   <div className="text-center opacity-30 group-hover:opacity-60 transition-opacity">
                     <span className="block text-[9px] uppercase tracking-[0.4em] font-bold text-[#8C887D]">Portfolio</span>
