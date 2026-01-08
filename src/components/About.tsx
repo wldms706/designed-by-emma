@@ -71,8 +71,8 @@ const About: React.FC = () => {
         {/* Designer Working Photos Section */}
         <div className="mt-24 pt-16 border-t border-gray-100">
           <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-serif italic mb-4">프로페셔널한 K-뷰티 헤어를 선도하는 자</h3>
-            <p className="text-sm text-gray-600 tracking-wide">Leading Professional in K-Beauty Hair</p>
+            <h3 className="text-3xl md:text-4xl font-serif italic mb-4">Leading Professional in K-Beauty Hair</h3>
+            <p className="text-sm text-gray-600 tracking-wide">Pioneering Excellence in Korean Hair Artistry</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
