@@ -74,16 +74,19 @@ const App: React.FC = () => {
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
               </div>
 
-              {/* Placeholder for more photos */}
-              {[9].map((i) => (
-                <div key={i} className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 flex items-center justify-center hover:bg-[#F3F1ED] transition-all duration-700 group cursor-pointer relative">
-                  <div className="text-center opacity-30 group-hover:opacity-60 transition-opacity">
-                    <span className="block text-[9px] uppercase tracking-[0.4em] font-bold text-[#8C887D]">Portfolio</span>
-                    <span className="block text-[8px] uppercase tracking-widest text-[#8C887D] mt-1 italic">#{i}</span>
-                  </div>
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
-                </div>
-              ))}
+              {/* Additional Style Photos */}
+              <div className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 hover:border-amber-200 transition-all duration-700 group cursor-pointer relative">
+                <img src="/images/style1.jpg" alt="Premium Hair Style 1" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
+              </div>
+              <div className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 hover:border-amber-200 transition-all duration-700 group cursor-pointer relative">
+                <img src="/images/style2.jpg" alt="Premium Hair Style 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
+              </div>
+              <div className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 hover:border-amber-200 transition-all duration-700 group cursor-pointer relative">
+                <img src="/images/style3.jpg" alt="Premium Hair Style 3" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
+              </div>
             </div>
             <p className="text-center mt-12 text-[10px] text-gray-400 uppercase tracking-[0.3em]">More images coming soon</p>
           </div>

@@ -67,6 +67,31 @@ const About: React.FC = () => {
             />
           </div>
         </div>
+
+        {/* Designer Working Photos Section */}
+        <div className="mt-24 pt-16 border-t border-gray-100">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl md:text-4xl font-serif italic mb-4">프로페셔널한 K-뷰티 헤어를 선도하는 자</h3>
+            <p className="text-sm text-gray-600 tracking-wide">Leading Professional in K-Beauty Hair</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-amber-50 to-amber-100 border border-gray-100">
+              <img
+                src="/images/designer1.jpg"
+                alt="Emma at work - Professional K-Hair styling"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+              />
+            </div>
+            <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-amber-50 to-amber-100 border border-gray-100">
+              <img
+                src="/images/designer2.jpg"
+                alt="Emma providing premium hair treatment"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

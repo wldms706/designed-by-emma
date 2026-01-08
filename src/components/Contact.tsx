@@ -88,6 +88,17 @@ const Contact: React.FC = () => {
               </a>
 
               <div className="space-y-4 pt-6 border-t border-gray-200">
+                <p className="text-xs uppercase tracking-[0.2em] text-gray-500 text-center">Or scan WhatsApp QR Code</p>
+                <div className="flex justify-center">
+                  <img
+                    src="/images/whatsapp-qr.png"
+                    alt="WhatsApp QR Code for Designed by Emma"
+                    className="w-48 h-48 object-contain"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-4 pt-6 border-t border-gray-200">
                 <p className="text-xs uppercase tracking-[0.2em] text-gray-500">What to include in your message:</p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
