@@ -66,8 +66,55 @@ const App: React.FC = () => {
           </div>
         </section>
 
+        {/* Premium Clinic Section */}
+        <section className="py-24 bg-[#FAF9F6]">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="text-center mb-16">
+              <span className="text-amber-800 uppercase tracking-[0.3em] text-xs font-bold">Expert Treatment</span>
+              <h2 className="text-4xl md:text-5xl font-serif mt-4 mb-6 italic">Premium Hair Clinic</h2>
+              <div className="max-w-3xl mx-auto">
+                <p className="text-gray-600 leading-relaxed text-lg mb-4">
+                  Do you want shiny, lustrous hair? Beautiful, glossy hair alone can make you look healthier and younger.
+                </p>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  If your hair is damaged or frizzy, try our clinic treatment. I'm truly a clinic specialist with expertise in restoring hair to its natural beauty.
+                </p>
+                <p className="text-amber-800 font-semibold italic">
+                  Transform your hair health with professional clinic care
+                </p>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <div className="aspect-[4/5] overflow-hidden bg-gradient-to-br from-amber-50 to-amber-100 border border-gray-100 hover:border-amber-200 transition-all duration-500 group">
+                <img
+                  src="/images/clinic1.jpg"
+                  alt="Premium Hair Clinic Treatment"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div className="aspect-[4/5] overflow-hidden bg-gradient-to-br from-amber-50 to-amber-100 border border-gray-100 hover:border-amber-200 transition-all duration-500 group">
+                <img
+                  src="/images/clinic2.jpg"
+                  alt="Hair Restoration Specialist"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+            </div>
+
+            <div className="mt-12 text-center">
+              <a
+                href="#contact"
+                className="inline-block text-sm uppercase tracking-[0.2em] border-2 border-amber-800 px-8 py-3 hover:bg-amber-800 hover:text-white transition-all duration-300"
+              >
+                Book Your Clinic Treatment
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* Gallery Preview Section */}
-        <section id="gallery" className="py-24 bg-[#FAF9F6]">
+        <section id="gallery" className="py-24 bg-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
               <div className="max-w-xl">
@@ -92,16 +139,6 @@ const App: React.FC = () => {
               </div>
               <div className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 hover:border-amber-200 transition-all duration-700 group cursor-pointer relative">
                 <img src="/images/color2.jpg" alt="Signature Brown Color 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
-              </div>
-
-              {/* Clinic Photos */}
-              <div className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 hover:border-amber-200 transition-all duration-700 group cursor-pointer relative">
-                <img src="/images/clinic1.jpg" alt="Premium Clinic Treatment 1" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
-              </div>
-              <div className="aspect-square overflow-hidden bg-[#FAF9F6] border border-gray-50 hover:border-amber-200 transition-all duration-700 group cursor-pointer relative">
-                <img src="/images/clinic2.jpg" alt="Premium Clinic Treatment 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
               </div>
 
