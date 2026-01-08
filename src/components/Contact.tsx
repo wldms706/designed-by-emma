@@ -73,52 +73,46 @@ const Contact: React.FC = () => {
 
           <div className="bg-[#FAF9F6] p-8 md:p-12">
             <h3 className="text-2xl font-serif italic mb-6">Send a Message</h3>
-            <form className="space-y-6">
-              <div>
-                <label className="block text-xs uppercase tracking-[0.2em] mb-2">Name</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-3 bg-white border border-gray-200 focus:border-amber-800 focus:outline-none transition-colors"
-                  placeholder="Your full name"
-                />
-              </div>
-              <div>
-                <label className="block text-xs uppercase tracking-[0.2em] mb-2">Email or Phone</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-3 bg-white border border-gray-200 focus:border-amber-800 focus:outline-none transition-colors"
-                  placeholder="Best way to reach you"
-                />
-              </div>
-              <div>
-                <label className="block text-xs uppercase tracking-[0.2em] mb-2">Service of Interest</label>
-                <select className="w-full px-4 py-3 bg-white border border-gray-200 focus:border-amber-800 focus:outline-none transition-colors">
-                  <option>Select a service</option>
-                  <option>Signature Perm</option>
-                  <option>Premium Clinic</option>
-                  <option>Female Designer Cut</option>
-                  <option>Signature Brown Color</option>
-                  <option>General Inquiry</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-xs uppercase tracking-[0.2em] mb-2">Message</label>
-                <textarea
-                  rows={4}
-                  className="w-full px-4 py-3 bg-white border border-gray-200 focus:border-amber-800 focus:outline-none transition-colors resize-none"
-                  placeholder="Tell Emma about your hair goals..."
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full px-8 py-4 bg-amber-900 text-white text-xs uppercase tracking-[0.2em] hover:bg-amber-800 transition-colors"
-              >
-                Send Message
-              </button>
-              <p className="text-[10px] text-gray-400 text-center">
-                Or reach out directly via Instagram DM for faster response
+            <div className="space-y-6">
+              <p className="text-gray-600 leading-relaxed">
+                Ready to transform your hair? Send Emma a direct message on Instagram to book your appointment or ask any questions.
               </p>
-            </form>
+
+              <a
+                href="https://ig.me/m/designedby.emma.nz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-8 py-4 bg-amber-900 text-white text-xs uppercase tracking-[0.2em] hover:bg-amber-800 transition-colors text-center"
+              >
+                Send Instagram Message
+              </a>
+
+              <div className="space-y-4 pt-6 border-t border-gray-200">
+                <p className="text-xs uppercase tracking-[0.2em] text-gray-500">What to include in your message:</p>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-800 mt-1">•</span>
+                    <span>Your name and preferred contact method</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-800 mt-1">•</span>
+                    <span>Service you're interested in (Perm, Clinic, Cut, or Color)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-800 mt-1">•</span>
+                    <span>Your hair goals and any reference photos</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-800 mt-1">•</span>
+                    <span>Preferred appointment dates and times</span>
+                  </li>
+                </ul>
+              </div>
+
+              <p className="text-[10px] text-gray-400 text-center pt-4">
+                Emma typically responds within 24 hours
+              </p>
+            </div>
           </div>
         </div>
       </div>
