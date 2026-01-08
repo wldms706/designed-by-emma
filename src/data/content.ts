@@ -17,7 +17,7 @@ export const SERVICES: ServiceItem[] = [
     title: "Female Designer Cut",
     description: "20 years of precision cutting. Shapes that enhance your natural facial structure and ease of styling.",
     priceFrom: "NZD 90",
-    image: "" // Placeholder: Add your best haircut photo here
+    image: "/images/cut1.jpg"
   },
   {
     title: "Signature Brown Color",
