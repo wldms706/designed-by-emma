@@ -4,19 +4,19 @@ export const SERVICES: ServiceItem[] = [
   {
     title: "Signature Perm",
     description: "Expert Korean perm techniques tailored for Asian hair textures. Voluminous, natural, and long-lasting results.",
-    priceFrom: "NZD 250",
+    priceFrom: "NZD 180",
     image: "/images/perm1.jpg"
   },
   {
     title: "Premium Clinic",
     description: "Deep restorative treatments specifically curated to maintain hair health, shine, and structural integrity.",
-    priceFrom: "NZD 120",
+    priceFrom: "NZD 160",
     image: "/images/clinic1.jpg"
   },
   {
     title: "Female Designer Cut",
     description: "20 years of precision cutting. Shapes that enhance your natural facial structure and ease of styling.",
-    priceFrom: "NZD 90",
+    priceFrom: "NZD 60",
     image: "/images/cut1.jpg"
   },
   {

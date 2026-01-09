@@ -59,11 +59,11 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          <div className="order-1 md:order-2 h-[500px] bg-gradient-to-br from-amber-50 to-amber-100 flex items-center justify-center overflow-hidden">
+          <div className="order-1 md:order-2 aspect-square bg-gradient-to-br from-amber-50 to-amber-100 flex items-center justify-center overflow-hidden">
             <img
               src="/images/profile.png"
               alt="Emma - K-Hair Specialist"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
