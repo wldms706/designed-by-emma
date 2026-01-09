@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
               </a>
 
               <div className="space-y-4 pt-6 border-t border-gray-200">
-                <p className="text-xs uppercase tracking-[0.2em] text-gray-500 text-center">Or scan WhatsApp QR Code</p>
+                <p className="text-xs uppercase tracking-[0.2em] text-gray-500 text-center">Or message on WhatsApp</p>
                 <div className="flex justify-center">
                   <img
                     src="/images/whatsapp-qr.png"
@@ -96,6 +96,14 @@ const Contact: React.FC = () => {
                     className="w-48 h-48 object-contain"
                   />
                 </div>
+                <a
+                  href="https://wa.me/640273334711"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full px-8 py-4 bg-green-600 text-white text-xs uppercase tracking-[0.2em] hover:bg-green-700 transition-colors text-center"
+                >
+                  Message on WhatsApp
+                </a>
               </div>
 
               <div className="space-y-4 pt-6 border-t border-gray-200">
