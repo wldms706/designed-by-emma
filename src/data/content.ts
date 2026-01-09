@@ -14,8 +14,14 @@ export const SERVICES: ServiceItem[] = [
     image: "/images/clinic1.jpg"
   },
   {
+    title: "Straight Perm",
+    description: "Sleek, smooth, and manageable hair with Korean straightening techniques. Long-lasting natural results.",
+    priceFrom: "NZD 180",
+    image: "/images/perm1.jpg"
+  },
+  {
     title: "Female Designer Cut",
-    description: "20 years of precision cutting. Shapes that enhance your natural facial structure and ease of styling.",
+    description: "20 years of precision cutting. Shapes that enhance your natural facial structure and ease of styling. Includes wash.",
     priceFrom: "NZD 60",
     image: "/images/cut1.jpg"
   },
