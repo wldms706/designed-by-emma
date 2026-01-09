@@ -4,12 +4,15 @@ const Hero: React.FC = () => {
   return (
     <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-[#FAF9F6] via-[#F3F1ED] to-[#E8E5DF] pt-16">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <span className="text-amber-800 uppercase tracking-[0.3em] text-xs font-bold">Premium K-Hair in Auckland</span>
-        <h1 className="text-5xl md:text-7xl font-serif mt-6 mb-8 italic leading-tight">
-          Designed by Emma
+        <h1 className="text-4xl md:text-6xl font-serif mt-6 mb-6 leading-tight">
+          Not Every Salon Can Do K-Hair Properly.<br />
+          <span className="italic">This one was built by a Korean master.</span>
         </h1>
-        <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed">
-          20+ years of mastery in Korean hair artistry. Expert perms, clinic treatments, designer cuts, and signature brown colors.
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-4 leading-relaxed">
+          20+ years of refined Korean hair artistry.
+        </p>
+        <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed">
+          Signature perms, designer cuts, clinic treatments, and brown colors made for your skin tone.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
