@@ -63,7 +63,7 @@ const About: React.FC = () => {
             <img
               src="/images/profile.png"
               alt="Emma - K-Hair Specialist"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
         </div>
